@@ -1,4 +1,10 @@
-package buton;
+//
+//
+// 10.08.17
+// coded by furkan-dev
+// licensed by gnu-general-license
+//
+//
 
 import java.util.Scanner;
 
@@ -6,15 +12,15 @@ public class Ders5 {
 	
 	public static void main (String[] args ) {
 		
-		System.out.print("Kullanıcı adı giriniz: ");
+		System.out.print("KullanÃ½cÃ½ adÃ½ giriniz: ");
 		
 		Scanner input = new Scanner (System.in);
 		
 		String a = input.next();
 		
-		if (a.equals("furkan")) {
+		if (a.equals("x")) {
 			
-			System.out.print("Nasılsınız Furkan Bey? ");
+			System.out.print("NasÃ½lsÃ½nÃ½z x Bey? ");
 			
 			Scanner input2 = new Scanner (System.in);
 			
@@ -22,14 +28,14 @@ public class Ders5 {
 			
 			if (b.equals("iyiyim")) {
 				
-				System.out.print("Sizin adınıza sevindim..");
+				System.out.print("Sizin adÃ½nÃ½za sevindim..");
 			} else {
 				
-				System.out.print("İyi olmanız için ne yapabilirim? ");
+				System.out.print("Ãyi olmanÃ½z iÃ§in ne yapabilirim? ");
 			}
 		} else {
 			
-			System.out.print("Kullanıcı kaydı bulunamadı..");
+			System.out.print("KullanÃ½cÃ½ kaydÃ½ bulunamadÃ½..");
 		}
 	}		
 }
