@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class Ders5 {
+public class PASystem {
 	
 	public static void main (String[] args ) {
 		
